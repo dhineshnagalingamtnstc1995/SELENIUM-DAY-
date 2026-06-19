@@ -17,8 +17,8 @@ public class SeleniumTesting1 {
 		
 		WebElement UserName=cd.findElement(By.name("email"));
 		UserName.sendKeys("veera Travels");
-		//cd.getPageSource();
-		//cd.close();
+		cd.getPageSource();
+		cd.close();
 	}
 
 }
